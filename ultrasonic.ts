@@ -14,7 +14,6 @@ namespace DFRobotUltrasonic {
      * 设置测量距离
      */
     //% block="Set Mode Range|%ramge"
-    //%weight = 50
     function SetModeRange(range: Range): void {
         let Mode = range | 0x80
         pins.i2cWriteNumber(i2cAddr, Mode, NumberFormat.UInt8BE)
