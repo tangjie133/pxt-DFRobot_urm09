@@ -6,12 +6,12 @@
     },
     "description": "",
     "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md"
+        "README.md",
+        "ultrasonic.ts"
     ],
-    "preferredEditor": "blocksprj",
+    "preferredEditor": "tsprj",
     "testFiles": [
         "test.ts"
-    ]
+    ],
+    "installedVersion": "workspace:e36f1a69-6933-485e-3095-28328bde4de2"
 }
