@@ -1,9 +1,9 @@
 {
     
     "DFRobotUltrasonic.SetModeRange|block":"设置测量范围|%ramge",
-    "Range.MEASURE_RANG_150":"测量范围_150",
-	"Range.MEASURE_RANG_300":"测量范围_300",
-	"Range.MEASURE_RANG_500":"测量范围_500",
+    "Range.measure_rang_150":"测量范围_150",
+	"Range.measure_rang_300":"测量范围_300",
+	"Range.measure_rang_500":"测量范围_500",
 	"DFRobotUltrasonic.i2cReadDistance|block":"读取距离",
 	"DFRobotUltrasonic.i2cReadTemDistance|block":"读取温度"
 }

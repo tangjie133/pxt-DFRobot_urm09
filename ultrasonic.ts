@@ -45,8 +45,7 @@ namespace DFRobotUltrasonic {
         pins.i2cWriteNumber(i2cAddr,5, NumberFormat.Int8LE)
         let buffer = pins.i2cReadBuffer(i2cAddr, 2)
         let tem=Math.round(((buffer[0]<<8)+buffer[1])/10)
-      
-        serial.writeNumber(tem)
-        return 0
+        //serial.writeNumber(tem)
+        return tem
     }
 }
