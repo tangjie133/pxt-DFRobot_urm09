@@ -1,1 +1,5 @@
-// tests go here; this will not be compiled when this package is used as a library
+DFRobotUltrasonic.SetModeRange(Range.MEASURE_RANG_150)
+basic.forever(function () {
+    basic.showNumber(DFRobotUltrasonic.i2cReadTemDistance())
+    basic.showNumber(DFRobotUltrasonic.i2cReadDistance())
+})
