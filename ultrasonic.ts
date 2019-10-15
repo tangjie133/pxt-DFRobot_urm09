@@ -2,9 +2,9 @@
 enum Range {
     //% block="measure_rang_500"
     MEASURE_RANG_500 = 0x20,
-    //% block1 = "measure_rang_300"
+    //% block = "measure_rang_300"
     MEASURE_RANG_300 = 0x10,
-    //% block2 = "measure_rang_150"
+    //% block = "measure_rang_150"
     MEASURE_RANG_150 = 0x00
 }
 //% weight=100  color=#0020ff  block="ultrasonic"
