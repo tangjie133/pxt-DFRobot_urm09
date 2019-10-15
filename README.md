@@ -2,29 +2,42 @@
 
 
 
-## Usage
+## Add extension
 
-This repository contains a MakeCode extension. To use it in MakeCode,
+open your microbit makecode project, in Extension, paste  
 
-* open https://makecode.microbit.org/
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for the URL of this repository
+https://github.com/tangjie133/pxt-dfrobot_urm09
 
-## Collaborators
+to search box then search.
 
-You can invite users to become collaborators to this repository. This will allow multiple users to work on the same project at the same time.
-[Learn more...](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository)
+## Basic usage
 
-To edit this repository in MakeCode,
+```
+DFRobotUltrasonic.SetModeRange(Range.MEASURE_RANG_150)
+basic.forever(function () {
+    basic.showNumber(DFRobotUltrasonic.i2cReadTemDistance())
+    basic.showNumber(DFRobotUltrasonic.i2cReadDistance())
+})
 
-* open https://makecode.microbit.org/
-* click on **Import** then click on **Import URL**
-* paste the repository URL and click import
+```
+
+
+## API
+
+- SetModeRange(range: Range)  
+	Set the automatic mode  the measurement distance 
+- i2cReadDistance()  
+   Read the distance data of the register
+- i2cReadTemDistance()
+Read the temperature data of the register 
+
+## License
+
+MIT
+
+Copyright (c) 2018, microbit/micropython Chinese community  
 
 ## Supported targets
 
 * for PXT/microbit
-* for PXT/microbit
-(The metadata above is needed for package search.)
-
+(The metadata above is 
